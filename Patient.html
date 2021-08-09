@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yusuf HEKIM // ManangmentSystem APPS</title>
+<meta name="keyword" content="PHYTON,HTML5,CSS,JAVA,JAVASCRIPT">
+<meta name="description" content="Yusuf HEKIM // Programlama Eğitimleri">
+
+<!-- Font Google -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<link rel="stylesheet" href="./css/global.css">
+<link rel="stylesheet" href="./css/patient.css">
+<!-- >>>>>Tablet and Mobile<<<< -->
+<link rel="stylesheet" media="(max-width:800px)" href="./css/tablet.css">
+<link rel="stylesheet" media="(max-width:500px)" href="./css/home-mobile.css">
+
+</head>
+
+
+<body>
+    <header>
+        <p>ManangmentSystem</p>
+    </header>
+
+    <div class="container">
+        <div class="home-container">
+            <p>HOME</p>
+
+            <button class="button-primary"><small>Add XXXX</small> </button>
+
+
+        </div>
+
+        <div class="table-container">
+            <div class="table-header">
+                <div class="select">
+                    <label for="entries">Show</label>
+                    <select name="entries" id="entries">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                    <label>entries</label>
+                </div>
+                <div class="searchbar">
+                    <form action="/action_page.php">
+                        <label for="gsearch">Search : </label>
+                        <input type="search" id="search" name="search">
+
+                    </form>
+                </div>
+            </div>
+            <div class="table-list">
+                <table id="customers">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Insurance</th>
+                        <th>Adress</th>
+                        <th>Phone Number</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td><button class="button edit">Edit</button></td>
+                        <td><button class="button delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td><button class="button edit">Edit</button></td>
+                        <td><button class="button delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td><button class="button edit">Edit</button></td>
+                        <td><button class="button delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td><button class="button edit">Edit</button></td>
+                        <td><button class="button delete">Delete</button></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="table-bottom">
+                <p>Showing 1 to 4 of 4 entries</p>
+                <div class="pagination">
+                    <button href="#" class="movement left" disabled>Previous</button>
+                    <button href="#" class="active">1</button>
+                    <button href="#" class="movement right" disabled>Next</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <small>&copy; 2021 Yusuf Hekim</small>
+    </footer>
+</body>
+
+</html>
