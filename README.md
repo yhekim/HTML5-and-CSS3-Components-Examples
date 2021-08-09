@@ -5,4 +5,4 @@
 -  Here are page structures made usign HTML5 and CSS3 that you can use everywhere.
 
 
-![gif](https://raw.githubusercontent.com/yhekim/CSS-WORKS/master/Card%20Flip%20Effect/card.gif)
+![gif](https://raw.githubusercontent.com/yhekim/HTML5-and-CSS3-Components-Examples/main/css.gif)
